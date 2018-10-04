@@ -1,7 +1,7 @@
 package com.kotlin.miprimeraapp.clase02
 //clase abstracta
 abstract class Persona {
-
+ var nombre:String?=null
     abstract fun correr()
     abstract fun saltar()
 
@@ -9,10 +9,10 @@ abstract class Persona {
 
 class Hombre: Persona(){
     override fun correr() {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+        TODO("not implemented")
     }
 
     override fun saltar() {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+        TODO("not implemented")
     }
 }
