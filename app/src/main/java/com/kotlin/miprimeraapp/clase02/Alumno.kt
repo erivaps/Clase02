@@ -1,6 +1,6 @@
 package com.kotlin.miprimeraapp.clase02
 
-class Alumno {
+ class Alumno {
     var codigo: Int? = null
     var nombre: String? = null
     var documento: String? = null
@@ -11,8 +11,8 @@ class Alumno {
         this.documento = documento
 
         println("Código: ${this.codigo}")
-        println("Código: ${this.nombre}")
-        println("Código: ${this.documento}")
+        println("nombre: ${this.nombre}")
+        println("documento: ${this.documento}")
     }
 }
 
